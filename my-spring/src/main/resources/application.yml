@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /start
+spring:
+  application:
+    name: m-spring
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: wangeqiu
+    password: wangeqiu
+    virtual-host: wangeqiu
+logging:
+  level:
+   com.galaxy:  debug
